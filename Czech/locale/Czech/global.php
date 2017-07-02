@@ -27,18 +27,18 @@
  * @locale password_strength refer to path includes/dynamics/password/lang/{value}.js
  * @package locale/English
  */
-setlocale(LC_TIME, "cs_CZ.utf8"); // Linux Server (Windows may differ)
+setlocale(LC_ALL, "cs_CZ.utf8", "cs_CZ", "czech"); // Linux Server (Windows may differ, změna RobiNN1,02.07.2017)
 $locale['charset'] = "utf-8";
 $locale['region'] = "CZ";
-$locale['xml_lang'] = "cs";
-$locale['short_lang_name'] = "cs";
-$locale['tinymce'] = "cs";
-$locale['select2'] = "cs";
-$locale['phpmailer'] = "cs";
-$locale['datepicker'] = "en-gb";/*Ponechat kvůli přechodu na Czech*/
+$locale['xml_lang'] = "cz";
+$locale['short_lang_name'] = "cz";
+$locale['tinymce'] = "cz";
+$locale['select2'] = "cz";
+$locale['phpmailer'] = "cz";
+$locale['datepicker'] = "cz";
 $locale['datepicker_js'] = "M-DD-YYYY H:mm:ss";
 $locale['datepicker_php'] = "m-d-Y H:i:s";
-$locale['password_strength'] = "cs";
+$locale['password_strength'] = "cz";
 // Celé & krátké měsíce
 $locale['months'] = "&nbsp|Leden|Únor|Březen|Duben|Květen|Červen|Červenec|Srpen|Září|Říjen|Listopad|Prosinec";
 $locale['shortmonths'] = "&nbsp|Led|Úno|Bře|Dub|Kvě|Čer|Červ|Srp|Zář|Říj|Lis|Pro";
